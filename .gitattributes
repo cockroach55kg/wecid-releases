@@ -1,0 +1,8 @@
+# Одинаковые окончания строк на всех сборочных машинах.
+* text=auto eol=lf
+
+# Сохранять исходные байты лицензий и подготовленных уведомлений:
+# их контрольные суммы проверяются перед сборкой.
+third-party/upstream/** -text
+THIRD_PARTY_NOTICES.txt -text
+public/legal/third-party-notices.txt -text
